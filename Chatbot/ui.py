@@ -5,7 +5,7 @@ import requests
 st.set_page_config(page_title="LangGraph Agent UI", layout="centered")
 
 # Define API endpoint
-API_URL = "http://127.0.0.1:8000/chat"
+API_URL = "https://ai-agents-8ioj.onrender.com/chat"
 
 # Predefined models
 MODEL_NAMES = [
